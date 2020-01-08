@@ -1,0 +1,16 @@
+/*Intended for about.html specific styling*/
+
+.mainDiv {
+    margin-top: 8vh;
+    margin-left: 8vw;
+    text-align:right;
+}
+
+#polaroid {
+    margin-top: -50px;
+    max-width: 100w;
+}
+
+p {
+    text-indent: 15px;
+}

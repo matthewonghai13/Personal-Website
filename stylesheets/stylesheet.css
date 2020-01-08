@@ -1,0 +1,109 @@
+body {
+    background-color: #f9f8f4;
+    overflow-x: hidden; /*gets rid of horizontal scroll bar triggered by 100vw divs*/
+}
+
+.titleDiv {
+    position: relative;
+    width: 90vw;
+    transform: translateX(10%);
+    z-index: 99;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 7em;
+    letter-spacing: 15px;
+}
+
+h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 5em;
+    letter-spacing: 15px;
+}
+
+.titleDiv a {
+    color: black;
+}
+
+.titleDiv a:hover {
+    color: black;
+    background-color: rgb(230,218,203);
+}
+
+.imageDiv {
+    top: -120px;
+    position: relative;
+    width: 70vw;
+    left: 30vw;
+}
+
+.imageDiv img{
+    position: absolute;
+    width: 80%;
+    right: 4vw;
+    z-index: 1;
+}
+
+.titleDiv .socialBar {
+    top: 20vh;
+    position: absolute;
+    max-width: 25vw;
+    left: 0;
+}
+
+.menuList {
+    top: 1vw;
+}
+
+.socialIcon {
+    max-width: 50px;
+}
+
+.footerDiv {
+    color: white;
+    padding-top: 20px;
+    min-height: 55px;
+    text-align: center;
+    margin-top: 30px;
+    background-color: rgb(230,218,203);
+}
+
+.backLink a {
+    margin-left: -13.5px;
+    color: black;
+    padding: 0px 0px 0px 0px;
+}
+
+.backLink a:hover {
+    background-color: rgb(230,218,203);
+}
+
+/*responsive sizing*/
+
+@media only screen and (max-width: 1050px) { /* first title resize*/
+    
+    .imageDiv {
+        top: -100px;
+    }
+    
+    .titleDiv h1 {
+        font-size: 4.5em;
+        letter-spacing: 15px;
+    }
+    
+    .menuList {
+        top: -5vh;
+    }
+
+    .socialIcon {
+        width: 35px;
+    }
+    
+}
+
+@media only screen and (max-width: 940px) { /* first subtitle resize*/
+    .lead {
+        font-size: 18px;
+    }
+}

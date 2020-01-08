@@ -1,0 +1,23 @@
+/*Intended for about.html specific styling*/
+
+.mainDiv {
+    margin-top: 8vh;
+    text-align:right;
+}
+
+p {
+    text-indent: 15px;
+}
+
+.categoryContainer  h3 {
+    text-align: center;
+}
+
+hr {
+    border: 1px solid rgb(230,218,203);
+    margin-top: -5px;
+}
+
+.skillList {
+    text-align: center;
+}
