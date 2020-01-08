@@ -38,9 +38,9 @@ h2 {
     left: 30vw;
 }
 
-.imageDiv img{
+.imageDiv img {
     position: absolute;
-    width: 80%;
+    width: 90%;
     right: 4vw;
     z-index: 1;
 }

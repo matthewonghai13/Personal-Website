@@ -21,3 +21,7 @@ hr {
 .skillList {
     text-align: center;
 }
+
+#langToolList {
+    padding-bottom: 50px;
+}
