@@ -22,6 +22,12 @@ h2 {
     letter-spacing: 15px;
 }
 
+h3 {
+    font-family: 'Anton', sans-serif;
+    font-size: 3.5em;
+    letter-spacing: 15px;
+}
+
 .titleDiv a {
     color: black;
 }
