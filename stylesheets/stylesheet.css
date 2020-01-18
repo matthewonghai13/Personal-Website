@@ -28,6 +28,12 @@ h3 {
     letter-spacing: 15px;
 }
 
+h4 {
+    font-family: 'Anton', sans-serif;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
 .titleDiv a {
     color: black;
 }
